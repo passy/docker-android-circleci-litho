@@ -8,6 +8,6 @@ export ANDROID_NDK_REPOSITORY=$HOME/android-ndk
 export ANDROID_NDK=$HOME/android-ndk
 export ANDROID_HOME=$HOME/android-sdk
 export PATH=$HOME/buck/bin:$PATH
-./gradlew :litho-it:testDebugUnitTest --tests "NodeInfoTest"
+./gradlew :litho-it:testDebugUnitTest --tests "*NodeInfoTest"
 popd
 rm -rf $HOME/litho
